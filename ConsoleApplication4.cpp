@@ -67,7 +67,7 @@ int main(int argc, char** atgv) {
             std::cout << "Декабрь" << std::endl;
             break;
         }
-        if (m < 0 || m>12) {
+        if (m1 < 0 || m1>12) {
             std::cout << "Не правильный номер";
      
         }
@@ -78,4 +78,3 @@ int main(int argc, char** atgv) {
         std::cout << "До свидания!";
         return 0;
     }
-}
