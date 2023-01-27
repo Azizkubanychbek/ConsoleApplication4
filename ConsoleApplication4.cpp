@@ -16,7 +16,7 @@ enum class Months {
 
 int main(int argc, char** atgv) {
     setlocale(LC_ALL, "Russian");
-    int m1 = 0;
+    int m1 = 1;
 
     while (m1!=0)
     {
@@ -68,7 +68,7 @@ int main(int argc, char** atgv) {
             break;
         }
         if (m1 < 0 || m1>12) {
-            std::cout << "Не правильный номер";
+            std::cout << "Не правильный номер\n";
      
         }
 
